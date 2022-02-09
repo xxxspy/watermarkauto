@@ -1,2 +1,2 @@
-outputs/*
+test/outputs/*
 markers.txt

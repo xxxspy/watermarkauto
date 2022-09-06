@@ -50,14 +50,20 @@ def convert(fpath=r"test\inputs\test.ts", topath=None):
     final.write_videofile(str(topath), fps=24, codec='libx264')
 
 
-def dir_convert(fromdir, todir, suffix='.ts'):
-
+def dir_convert(fromdir, todir=None, suffix='.ts'):
     for fpath in Path(fromdir).iterdir():
         if fpath.suffix == suffix:
-            topath = Path(todir) / fpath.name
+            if todir is None:
+                topath = None
+            else:
+                topath = Path(todir) / fpath.name
             convert(fpath, topath)
 
 
 
 if __name__ == '__main__':
-    dir_convert('test/inputs', 'test/outputs')
+    # dir_convert(r'D:\notebooks\数据分析\结构方程模型\视频教程', suffix='.mp4')
+    convert(
+        r'D:\notebooks\数据分析\结构方程模型\视频教程\mplus多组分析分类变量的调节效应.mp4',
+        r'D:\notebooks\数据分析\结构方程模型\视频教程\mark-mplus多组分析分类变量的调节效应.mp4',
+        )

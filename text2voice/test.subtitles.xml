@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:05.120" end="00:00:08.880" style="s2">in this video</p>
+<p begin="00:00:06.399" end="00:00:09.679" style="s2">i will provide an introduction to the</p>
+<p begin="00:00:08.880" end="00:00:12.559" style="s2">stata</p>
+<p begin="00:00:09.679" end="00:00:14.960" style="s2">software so i assume that you have</p>
+<p begin="00:00:12.559" end="00:00:17.199" style="s2">purchased the stata license you have</p>
+<p begin="00:00:14.960" end="00:00:20.080" style="s2">downloaded the software</p>
+<p begin="00:00:17.199" end="00:00:20.960" style="s2">and you have executed it and you&#39;re</p>
+<p begin="00:00:20.080" end="00:00:24.320" style="s2">ready to</p>
+<p begin="00:00:20.960" end="00:00:27.760" style="s2">get to learn stata</p>
+<p begin="00:00:24.320" end="00:00:30.800" style="s2">so what you need to do here</p>
+<p begin="00:00:27.760" end="00:00:31.840" style="s2">is download the program introduction to</p>
+<p begin="00:00:30.800" end="00:00:35.360" style="s2">stata</p>
+<p begin="00:00:31.840" end="00:00:39.200" style="s2">and then double click on it to open it</p>
+<p begin="00:00:35.360" end="00:00:42.640" style="s2">or alternatively if you open stata</p>
+<p begin="00:00:39.200" end="00:00:45.360" style="s2">you can go in file open and then</p>
+<p begin="00:00:42.640" end="00:00:46.239" style="s2">open up this file the easiest way to</p>
+<p begin="00:00:45.360" end="00:00:50.239" style="s2">learn stata</p>
+<p begin="00:00:46.239" end="00:00:53.039" style="s2">is to try to open an existing program</p>
+<p begin="00:00:50.239" end="00:00:54.879" style="s2">so this program is called xero</p>
+<p begin="00:00:53.039" end="00:00:58.399" style="s2">introduction to stata</p>
+<p begin="00:00:54.879" end="00:01:01.440" style="s2">dot do it has a dot dot</p>
+<p begin="00:00:58.399" end="00:01:04.799" style="s2">extension which is the extension</p>
+<p begin="00:01:01.440" end="00:01:07.920" style="s2">for stata programs</p>
+<p begin="00:01:04.799" end="00:01:08.560" style="s2">so here we have the program which is the</p>
+<p begin="00:01:07.920" end="00:01:11.760" style="s2">dot do</p>
+<p begin="00:01:08.560" end="00:01:15.040" style="s2">file and here we have what we call an</p>
+<p begin="00:01:11.760" end="00:01:16.479" style="s2">output window and how we get to write in</p>
+<p begin="00:01:15.040" end="00:01:20.080" style="s2">the output window</p>
+<p begin="00:01:16.479" end="00:01:23.600" style="s2">is if you click on</p>
+<p begin="00:01:20.080" end="00:01:26.479" style="s2">this button here which is execute or</p>
+<p begin="00:01:23.600" end="00:01:28.640" style="s2">do command and basically that would</p>
+<p begin="00:01:26.479" end="00:01:30.799" style="s2">execute the program and this is what</p>
+<p begin="00:01:28.640" end="00:01:34.000" style="s2">we&#39;re going to see here as the</p>
+<p begin="00:01:30.799" end="00:01:36.320" style="s2">output window so</p>
+<p begin="00:01:34.000" end="00:01:38.320" style="s2">today what i will talk about in this</p>
+<p begin="00:01:36.320" end="00:01:41.360" style="s2">introduction to stata video</p>
+<p begin="00:01:38.320" end="00:01:42.240" style="s2">is how to set up the data sets that we</p>
+<p begin="00:01:41.360" end="00:01:44.880" style="s2">have</p>
+<p begin="00:01:42.240" end="00:01:45.520" style="s2">how to explore the data how to edit the</p>
+<p begin="00:01:44.880" end="00:01:49.119" style="s2">data</p>
+<p begin="00:01:45.520" end="00:01:50.000" style="s2">how to export regression output and we</p>
+<p begin="00:01:49.119" end="00:01:53.360" style="s2">will end up</p>
+<p begin="00:01:50.000" end="00:01:56.240" style="s2">with creating log files</p>
+<p begin="00:01:53.360" end="00:01:58.040" style="s2">the data set that i will use today is</p>
+<p begin="00:01:56.240" end="00:02:00.079" style="s2">called</p>
+<p begin="00:01:58.040" end="00:02:03.840" style="s2">wage1.dta so</p>
+<p begin="00:02:00.079" end="00:02:07.280" style="s2">dot dta is the extension</p>
+<p begin="00:02:03.840" end="00:02:10.959" style="s2">for data files so</p>
+<p begin="00:02:07.280" end="00:02:11.920" style="s2">dot do was the extension for the program</p>
+<p begin="00:02:10.959" end="00:02:14.800" style="s2">itself so</p>
+<p begin="00:02:11.920" end="00:02:15.760" style="s2">introduction to stata dot do and the</p>
+<p begin="00:02:14.800" end="00:02:20.879" style="s2">data files</p>
+<p begin="00:02:15.760" end="00:02:24.239" style="s2">are dot dta extension so wage1.dta</p>
+<p begin="00:02:20.879" end="00:02:25.120" style="s2">so the first thing to do is download the</p>
+<p begin="00:02:24.239" end="00:02:28.239" style="s2">data set</p>
+<p begin="00:02:25.120" end="00:02:32.319" style="s2">from the website and then store it</p>
+<p begin="00:02:28.239" end="00:02:36.319" style="s2">somewhere on the computer and so for me</p>
+<p begin="00:02:32.319" end="00:02:40.080" style="s2">this data is located in the folders</p>
+<p begin="00:02:36.319" end="00:02:43.280" style="s2">on my c drive econometric slash</p>
+<p begin="00:02:40.080" end="00:02:45.599" style="s2">data and so you need to change this part</p>
+<p begin="00:02:43.280" end="00:02:47.840" style="s2">here in the program</p>
+<p begin="00:02:45.599" end="00:02:50.000" style="s2">where the data is stored on your</p>
+<p begin="00:02:47.840" end="00:02:53.840" style="s2">computer in order for you to be able</p>
+<p begin="00:02:50.000" end="00:02:56.959" style="s2">to run uh this program</p>
+<p begin="00:02:53.840" end="00:03:00.159" style="s2">so i also have changed here</p>
+<p begin="00:02:56.959" end="00:03:01.360" style="s2">um i have used and set up a global</p>
+<p begin="00:03:00.159" end="00:03:03.920" style="s2">directory</p>
+<p begin="00:03:01.360" end="00:03:05.680" style="s2">so global and i&#39;m calling this data</p>
+<p begin="00:03:03.920" end="00:03:08.159" style="s2">directory because</p>
+<p begin="00:03:05.680" end="00:03:10.400" style="s2">uh all of the data sets that i have are</p>
+<p begin="00:03:08.159" end="00:03:11.760" style="s2">in this folder and i can call them from</p>
+<p begin="00:03:10.400" end="00:03:14.879" style="s2">this folder</p>
+<p begin="00:03:11.760" end="00:03:15.760" style="s2">and so later on when i want to use the</p>
+<p begin="00:03:14.879" end="00:03:19.200" style="s2">data set</p>
+<p begin="00:03:15.760" end="00:03:22.720" style="s2">i will use the use command</p>
+<p begin="00:03:19.200" end="00:03:23.440" style="s2">and then here this is the data directory</p>
+<p begin="00:03:22.720" end="00:03:26.640" style="s2">slash</p>
+<p begin="00:03:23.440" end="00:03:31.280" style="s2">wage one and this wage one would be</p>
+<p begin="00:03:26.640" end="00:03:33.920" style="s2">calling up this file wage1.dta</p>
+<p begin="00:03:31.280" end="00:03:34.959" style="s2">so comma clear means that if there&#39;s any</p>
+<p begin="00:03:33.920" end="00:03:37.360" style="s2">other</p>
+<p begin="00:03:34.959" end="00:03:39.040" style="s2">file in the memory it&#39;s going to be</p>
+<p begin="00:03:37.360" end="00:03:42.319" style="s2">cleared and rewritten</p>
+<p begin="00:03:39.040" end="00:03:43.760" style="s2">with this file so now you can accomplish</p>
+<p begin="00:03:42.319" end="00:03:45.920" style="s2">the same thing</p>
+<p begin="00:03:43.760" end="00:03:47.760" style="s2">by just changing the directory here if</p>
+<p begin="00:03:45.920" end="00:03:50.959" style="s2">you do a cd</p>
+<p begin="00:03:47.760" end="00:03:52.959" style="s2">change directory and then i</p>
+<p begin="00:03:50.959" end="00:03:55.040" style="s2">use this directory here and then you</p>
+<p begin="00:03:52.959" end="00:03:58.640" style="s2">could just call it simply by saying</p>
+<p begin="00:03:55.040" end="00:04:00.480" style="s2">use wage one comma clear so that would</p>
+<p begin="00:03:58.640" end="00:04:02.480" style="s2">accomplish the same thing</p>
+<p begin="00:04:00.480" end="00:04:04.560" style="s2">but i&#39;m using a global statement here</p>
+<p begin="00:04:02.480" end="00:04:05.920" style="s2">for the data directory</p>
+<p begin="00:04:04.560" end="00:04:08.720" style="s2">there are a couple more things to</p>
+<p begin="00:04:05.920" end="00:04:09.040" style="s2">mention here uh one of them is clear all</p>
+<p begin="00:04:08.720" end="00:04:12.640" style="s2">that</p>
+<p begin="00:04:09.040" end="00:04:14.799" style="s2">also clears everything that is currently</p>
+<p begin="00:04:12.640" end="00:04:16.720" style="s2">in memory so that the program could be</p>
+<p begin="00:04:14.799" end="00:04:20.079" style="s2">rerun multiple times</p>
+<p begin="00:04:16.720" end="00:04:23.919" style="s2">by coming here and running the program</p>
+<p begin="00:04:20.079" end="00:04:26.960" style="s2">and set more off just turns off uh</p>
+<p begin="00:04:23.919" end="00:04:30.080" style="s2">the more button</p>
+<p begin="00:04:26.960" end="00:04:32.320" style="s2">when the program is executed so these</p>
+<p begin="00:04:30.080" end="00:04:35.040" style="s2">are some of the things</p>
+<p begin="00:04:32.320" end="00:04:35.919" style="s2">so another thing that we can do here is</p>
+<p begin="00:04:35.040" end="00:04:38.960" style="s2">um</p>
+<p begin="00:04:35.919" end="00:04:42.720" style="s2">to create a log file to save the output</p>
+<p begin="00:04:38.960" end="00:04:45.280" style="s2">so how we&#39;re doing this is by saying log</p>
+<p begin="00:04:42.720" end="00:04:48.000" style="s2">using we&#39;re giving it a name and i</p>
+<p begin="00:04:45.280" end="00:04:51.280" style="s2">currently call this the log file</p>
+<p begin="00:04:48.000" end="00:04:51.919" style="s2">comma replace and so comma replace</p>
+<p begin="00:04:51.280" end="00:04:54.960" style="s2">meaning</p>
+<p begin="00:04:51.919" end="00:04:57.360" style="s2">uh if if this log file exists</p>
+<p begin="00:04:54.960" end="00:04:59.440" style="s2">next time we run the program we&#39;re going</p>
+<p begin="00:04:57.360" end="00:05:01.600" style="s2">to be replacing this file</p>
+<p begin="00:04:59.440" end="00:05:02.800" style="s2">so this is useful because as we&#39;re</p>
+<p begin="00:05:01.600" end="00:05:04.800" style="s2">running the program</p>
+<p begin="00:05:02.800" end="00:05:07.199" style="s2">all of our results are going to be</p>
+<p begin="00:05:04.800" end="00:05:08.080" style="s2">stored in the log file so anything that</p>
+<p begin="00:05:07.199" end="00:05:10.560" style="s2">you see here</p>
+<p begin="00:05:08.080" end="00:05:12.080" style="s2">in the output window is going to be</p>
+<p begin="00:05:10.560" end="00:05:16.000" style="s2">stored in this</p>
+<p begin="00:05:12.080" end="00:05:19.199" style="s2">log file that we can later read and and</p>
+<p begin="00:05:16.000" end="00:05:23.759" style="s2">basically would have all of the results</p>
+<p begin="00:05:19.199" end="00:05:24.080" style="s2">stored okay so this is basically how to</p>
+<p begin="00:05:23.759" end="00:05:27.440" style="s2">set</p>
+<p begin="00:05:24.080" end="00:05:30.160" style="s2">up the data so now let&#39;s go ahead and</p>
+<p begin="00:05:27.440" end="00:05:32.160" style="s2">explore the data</p>
+<p begin="00:05:30.160" end="00:05:33.840" style="s2">so the first thing that we would be</p>
+<p begin="00:05:32.160" end="00:05:39.840" style="s2">doing uh is to</p>
+<p begin="00:05:33.840" end="00:05:39.840" style="s2">describe the data and so</p>
+<p begin="00:05:41.680" end="00:05:45.759" style="s2">so here in the output windows just to</p>
+<p begin="00:05:44.160" end="00:05:48.160" style="s2">backtrack a little bit</p>
+<p begin="00:05:45.759" end="00:05:49.280" style="s2">here&#39;s the log file that is starting to</p>
+<p begin="00:05:48.160" end="00:05:52.000" style="s2">be created</p>
+<p begin="00:05:49.280" end="00:05:53.680" style="s2">and it&#39;s saying this is where this the</p>
+<p begin="00:05:52.000" end="00:05:55.600" style="s2">log file is going to be</p>
+<p begin="00:05:53.680" end="00:05:57.919" style="s2">stored this is the name of the file</p>
+<p begin="00:05:55.600" end="00:06:00.479" style="s2">that&#39;s the extension of the file</p>
+<p begin="00:05:57.919" end="00:06:01.039" style="s2">and um basically every time we run a</p>
+<p begin="00:06:00.479" end="00:06:04.479" style="s2">file</p>
+<p begin="00:06:01.039" end="00:06:07.840" style="s2">here in the output we would see what</p>
+<p begin="00:06:04.479" end="00:06:09.199" style="s2">has been done so as we&#39;re exploring the</p>
+<p begin="00:06:07.840" end="00:06:12.880" style="s2">data</p>
+<p begin="00:06:09.199" end="00:06:13.759" style="s2">if we execute describe this is what we</p>
+<p begin="00:06:12.880" end="00:06:16.000" style="s2">are going to see</p>
+<p begin="00:06:13.759" end="00:06:18.639" style="s2">these are all of the variables in the</p>
+<p begin="00:06:16.000" end="00:06:19.680" style="s2">data set so here we have the variable</p>
+<p begin="00:06:18.639" end="00:06:22.160" style="s2">names</p>
+<p begin="00:06:19.680" end="00:06:23.840" style="s2">and typically here there are the labels</p>
+<p begin="00:06:22.160" end="00:06:26.240" style="s2">for these variables however</p>
+<p begin="00:06:23.840" end="00:06:28.720" style="s2">this data set in particular is not very</p>
+<p begin="00:06:26.240" end="00:06:31.039" style="s2">well documented so we have</p>
+<p begin="00:06:28.720" end="00:06:31.919" style="s2">the variable names being repeated here</p>
+<p begin="00:06:31.039" end="00:06:34.800" style="s2">but</p>
+<p begin="00:06:31.919" end="00:06:35.919" style="s2">oftentimes this would say something like</p>
+<p begin="00:06:34.800" end="00:06:39.360" style="s2">um</p>
+<p begin="00:06:35.919" end="00:06:40.800" style="s2">wage measured in dollars and that would</p>
+<p begin="00:06:39.360" end="00:06:44.160" style="s2">be hourly waged</p>
+<p begin="00:06:40.800" end="00:06:46.319" style="s2">education measured in number of years</p>
+<p begin="00:06:44.160" end="00:06:48.639" style="s2">uh so something like that these labels</p>
+<p begin="00:06:46.319" end="00:06:51.440" style="s2">are going to be</p>
+<p begin="00:06:48.639" end="00:06:53.759" style="s2">like that so if we don&#39;t want to be</p>
+<p begin="00:06:51.440" end="00:06:57.360" style="s2">looking at all of the data set</p>
+<p begin="00:06:53.759" end="00:06:59.919" style="s2">we can actually um just describe</p>
+<p begin="00:06:57.360" end="00:07:02.160" style="s2">a few variables of interest and here we</p>
+<p begin="00:06:59.919" end="00:07:05.199" style="s2">would be describing</p>
+<p begin="00:07:02.160" end="00:07:05.599" style="s2">wage education and experience and as you</p>
+<p begin="00:07:05.199" end="00:07:07.919" style="s2">can</p>
+<p begin="00:07:05.599" end="00:07:10.240" style="s2">see now we&#39;re just describing wage</p>
+<p begin="00:07:07.919" end="00:07:13.199" style="s2">education and experience</p>
+<p begin="00:07:10.240" end="00:07:13.199" style="s2">so this is much</p>
+<p begin="00:07:13.440" end="00:07:19.680" style="s2">much shorter if we want to list and see</p>
+<p begin="00:07:16.880" end="00:07:22.080" style="s2">the first few observations of the data</p>
+<p begin="00:07:19.680" end="00:07:23.039" style="s2">what we can do here is use the command</p>
+<p begin="00:07:22.080" end="00:07:26.479" style="s2">list</p>
+<p begin="00:07:23.039" end="00:07:30.160" style="s2">and here we have wage and then</p>
+<p begin="00:07:26.479" end="00:07:33.680" style="s2">education and experience in 110 means</p>
+<p begin="00:07:30.160" end="00:07:36.319" style="s2">uh just the first 10 obs uh means</p>
+<p begin="00:07:33.680" end="00:07:38.080" style="s2">from the first to the 10th observation</p>
+<p begin="00:07:36.319" end="00:07:40.880" style="s2">and here&#39;s from the first to the 10th</p>
+<p begin="00:07:38.080" end="00:07:42.400" style="s2">observation here we have wage education</p>
+<p begin="00:07:40.880" end="00:07:44.400" style="s2">and experience</p>
+<p begin="00:07:42.400" end="00:07:46.080" style="s2">uh so this is for the first person for</p>
+<p begin="00:07:44.400" end="00:07:46.960" style="s2">the second person and for the third</p>
+<p begin="00:07:46.080" end="00:07:49.280" style="s2">person</p>
+<p begin="00:07:46.960" end="00:07:51.599" style="s2">if we want to see where the data is we</p>
+<p begin="00:07:49.280" end="00:07:53.520" style="s2">can actually click on the data editor</p>
+<p begin="00:07:51.599" end="00:07:55.360" style="s2">and we can actually also look in the</p>
+<p begin="00:07:53.520" end="00:07:59.199" style="s2">data just like that</p>
+<p begin="00:07:55.360" end="00:08:02.400" style="s2">um but we can also list it in the</p>
+<p begin="00:07:59.199" end="00:08:04.960" style="s2">output window as well</p>
+<p begin="00:08:02.400" end="00:08:06.560" style="s2">so the next thing is to come up with</p>
+<p begin="00:08:04.960" end="00:08:09.840" style="s2">summary statistics</p>
+<p begin="00:08:06.560" end="00:08:11.919" style="s2">and here we would use summarize</p>
+<p begin="00:08:09.840" end="00:08:13.599" style="s2">uh if we use summarize we will get the</p>
+<p begin="00:08:11.919" end="00:08:14.400" style="s2">summary statistics for all of the</p>
+<p begin="00:08:13.599" end="00:08:17.840" style="s2">variables</p>
+<p begin="00:08:14.400" end="00:08:21.840" style="s2">um and then we can also summarize</p>
+<p begin="00:08:17.840" end="00:08:24.720" style="s2">uh only a few a few variables</p>
+<p begin="00:08:21.840" end="00:08:26.720" style="s2">so here summarize summarizes pretty much</p>
+<p begin="00:08:24.720" end="00:08:28.319" style="s2">all of the variables so what we see is</p>
+<p begin="00:08:26.720" end="00:08:31.919" style="s2">the number of observations</p>
+<p begin="00:08:28.319" end="00:08:35.120" style="s2">mean standard deviation min and max and</p>
+<p begin="00:08:31.919" end="00:08:37.919" style="s2">if we are using summarize um</p>
+<p begin="00:08:35.120" end="00:08:38.800" style="s2">of these three variables that we&#39;re</p>
+<p begin="00:08:37.919" end="00:08:40.959" style="s2">interested in</p>
+<p begin="00:08:38.800" end="00:08:42.560" style="s2">uh here&#39;s what we&#39;re going to have as</p>
+<p begin="00:08:40.959" end="00:08:45.760" style="s2">far as mean standard deviation</p>
+<p begin="00:08:42.560" end="00:08:48.399" style="s2">min and max and these are the</p>
+<p begin="00:08:45.760" end="00:08:50.080" style="s2">output that we can actually provide in</p>
+<p begin="00:08:48.399" end="00:08:52.640" style="s2">tables</p>
+<p begin="00:08:50.080" end="00:08:54.640" style="s2">if we want a little bit more information</p>
+<p begin="00:08:52.640" end="00:08:57.200" style="s2">on a particular variable</p>
+<p begin="00:08:54.640" end="00:08:59.920" style="s2">we can use summarize then put the name</p>
+<p begin="00:08:57.200" end="00:09:03.519" style="s2">of the variable wage common detail</p>
+<p begin="00:08:59.920" end="00:09:07.519" style="s2">and here a lot more detailed statistics</p>
+<p begin="00:09:03.519" end="00:09:11.200" style="s2">so we have the mean standard deviation</p>
+<p begin="00:09:07.519" end="00:09:14.080" style="s2">we also have the percentiles the first</p>
+<p begin="00:09:11.200" end="00:09:16.720" style="s2">from the first to the 99th percentile we</p>
+<p begin="00:09:14.080" end="00:09:19.440" style="s2">also have the smallest and the largest</p>
+<p begin="00:09:16.720" end="00:09:19.920" style="s2">values so sometimes we need to look into</p>
+<p begin="00:09:19.440" end="00:09:24.080" style="s2">more</p>
+<p begin="00:09:19.920" end="00:09:26.560" style="s2">details for a particular variable</p>
+<p begin="00:09:24.080" end="00:09:27.760" style="s2">we can also provide summary statistics</p>
+<p begin="00:09:26.560" end="00:09:30.800" style="s2">by group</p>
+<p begin="00:09:27.760" end="00:09:33.920" style="s2">if we use tabulate a female</p>
+<p begin="00:09:30.800" end="00:09:37.040" style="s2">this provides a frequency</p>
+<p begin="00:09:33.920" end="00:09:40.200" style="s2">table for females so here we have a</p>
+<p begin="00:09:37.040" end="00:09:43.839" style="s2">female equals one we have 252</p>
+<p begin="00:09:40.200" end="00:09:47.279" style="s2">observations and if female equals zero</p>
+<p begin="00:09:43.839" end="00:09:48.000" style="s2">we have 274 observations these are the</p>
+<p begin="00:09:47.279" end="00:09:50.480" style="s2">percent</p>
+<p begin="00:09:48.000" end="00:09:52.000" style="s2">frequency and the total number of</p>
+<p begin="00:09:50.480" end="00:09:55.120" style="s2">observations</p>
+<p begin="00:09:52.000" end="00:09:58.399" style="s2">we we have here so now we can also</p>
+<p begin="00:09:55.120" end="00:09:58.399" style="s2">summarize the data</p>
+<p begin="00:09:58.560" end="00:10:04.959" style="s2">uh if female is equal to one uh so</p>
+<p begin="00:10:01.680" end="00:10:07.839" style="s2">summarize the variable wage if female</p>
+<p begin="00:10:04.959" end="00:10:09.440" style="s2">is equal to one notice here that we use</p>
+<p begin="00:10:07.839" end="00:10:12.320" style="s2">the double equals sign</p>
+<p begin="00:10:09.440" end="00:10:14.240" style="s2">if it&#39;s equal to one uh and we need to</p>
+<p begin="00:10:12.320" end="00:10:17.200" style="s2">say which variable here so</p>
+<p begin="00:10:14.240" end="00:10:18.399" style="s2">we&#39;re summarizing uh wage for females</p>
+<p begin="00:10:17.200" end="00:10:21.839" style="s2">and this is the average</p>
+<p begin="00:10:18.399" end="00:10:25.360" style="s2">wage for females or if we want to</p>
+<p begin="00:10:21.839" end="00:10:28.160" style="s2">uh summarize for both males and females</p>
+<p begin="00:10:25.360" end="00:10:28.640" style="s2">how we&#39;re going to do this uh using by</p>
+<p begin="00:10:28.160" end="00:10:32.160" style="s2">sort</p>
+<p begin="00:10:28.640" end="00:10:34.399" style="s2">females so here we&#39;re sorting the data</p>
+<p begin="00:10:32.160" end="00:10:36.320" style="s2">by the variable female and then we will</p>
+<p begin="00:10:34.399" end="00:10:39.200" style="s2">be summarizing wage</p>
+<p begin="00:10:36.320" end="00:10:39.920" style="s2">so what comes with this command as far</p>
+<p begin="00:10:39.200" end="00:10:43.040" style="s2">as output</p>
+<p begin="00:10:39.920" end="00:10:45.360" style="s2">is we will summarize the wage if female</p>
+<p begin="00:10:43.040" end="00:10:46.880" style="s2">is equal to zero this is basically the</p>
+<p begin="00:10:45.360" end="00:10:49.680" style="s2">wage for males</p>
+<p begin="00:10:46.880" end="00:10:52.320" style="s2">and then we will summarize the wage if</p>
+<p begin="00:10:49.680" end="00:10:55.519" style="s2">female is equal to one so this is the</p>
+<p begin="00:10:52.320" end="00:10:58.959" style="s2">average wage for females</p>
+<p begin="00:10:55.519" end="00:11:02.640" style="s2">here the next thing that we can do</p>
+<p begin="00:10:58.959" end="00:11:05.920" style="s2">now is uh edit the data so we can keep</p>
+<p begin="00:11:02.640" end="00:11:09.920" style="s2">or drop variables</p>
+<p begin="00:11:05.920" end="00:11:12.800" style="s2">and um so here we can use the command</p>
+<p begin="00:11:09.920" end="00:11:14.800" style="s2">keep and these are all of the variables</p>
+<p begin="00:11:12.800" end="00:11:17.680" style="s2">that we</p>
+<p begin="00:11:14.800" end="00:11:19.279" style="s2">would keep here and so the rest of the</p>
+<p begin="00:11:17.680" end="00:11:22.160" style="s2">variables are going to be</p>
+<p begin="00:11:19.279" end="00:11:22.640" style="s2">dropped from the data or if it&#39;s going</p>
+<p begin="00:11:22.160" end="00:11:25.360" style="s2">to be</p>
+<p begin="00:11:22.640" end="00:11:26.240" style="s2">easier perhaps we can just drop a</p>
+<p begin="00:11:25.360" end="00:11:30.079" style="s2">particular</p>
+<p begin="00:11:26.240" end="00:11:32.240" style="s2">variable such as tenure and</p>
+<p begin="00:11:30.079" end="00:11:33.360" style="s2">here we kept it but now we&#39;re dropping</p>
+<p begin="00:11:32.240" end="00:11:36.399" style="s2">it so</p>
+<p begin="00:11:33.360" end="00:11:39.760" style="s2">we we can also drop a particular</p>
+<p begin="00:11:36.399" end="00:11:42.800" style="s2">variable if we no longer need it</p>
+<p begin="00:11:39.760" end="00:11:45.920" style="s2">so another thing that we can do is</p>
+<p begin="00:11:42.800" end="00:11:50.480" style="s2">drop if wage is less than 2.</p>
+<p begin="00:11:45.920" end="00:11:53.279" style="s2">so if we have certain</p>
+<p begin="00:11:50.480" end="00:11:53.760" style="s2">values for a variable that we want to</p>
+<p begin="00:11:53.279" end="00:11:57.279" style="s2">drop</p>
+<p begin="00:11:53.760" end="00:11:57.680" style="s2">we can use this command so notice that</p>
+<p begin="00:11:57.279" end="00:12:00.240" style="s2">while</p>
+<p begin="00:11:57.680" end="00:12:00.880" style="s2">keep and drop here refer to the variable</p>
+<p begin="00:12:00.240" end="00:12:03.680" style="s2">itself</p>
+<p begin="00:12:00.880" end="00:12:06.240" style="s2">or to the columns in the data drop of</p>
+<p begin="00:12:03.680" end="00:12:07.360" style="s2">wage is less than 2 would actually</p>
+<p begin="00:12:06.240" end="00:12:10.639" style="s2">delete</p>
+<p begin="00:12:07.360" end="00:12:14.000" style="s2">certain observations in in data</p>
+<p begin="00:12:10.639" end="00:12:15.600" style="s2">that have wage less than two so it would</p>
+<p begin="00:12:14.000" end="00:12:18.639" style="s2">delete certain rows</p>
+<p begin="00:12:15.600" end="00:12:20.240" style="s2">in the data so</p>
+<p begin="00:12:18.639" end="00:12:23.519" style="s2">the next thing we can do is we can</p>
+<p begin="00:12:20.240" end="00:12:25.760" style="s2">actually label the variables because</p>
+<p begin="00:12:23.519" end="00:12:27.760" style="s2">again this data set in particular was</p>
+<p begin="00:12:25.760" end="00:12:31.040" style="s2">not very well labeled</p>
+<p begin="00:12:27.760" end="00:12:33.440" style="s2">so we can put label variable and then we</p>
+<p begin="00:12:31.040" end="00:12:35.920" style="s2">can say the name of the variable</p>
+<p begin="00:12:33.440" end="00:12:36.880" style="s2">and then how we want it to be labeled so</p>
+<p begin="00:12:35.920" end="00:12:40.639" style="s2">here we could put</p>
+<p begin="00:12:36.880" end="00:12:42.240" style="s2">hourly wage in dollars and you see now</p>
+<p begin="00:12:40.639" end="00:12:46.000" style="s2">when we use describe</p>
+<p begin="00:12:42.240" end="00:12:48.880" style="s2">wage we can see wage here and then this</p>
+<p begin="00:12:46.000" end="00:12:49.680" style="s2">is the label of of the wage so the nice</p>
+<p begin="00:12:48.880" end="00:12:54.160" style="s2">thing about</p>
+<p begin="00:12:49.680" end="00:12:57.680" style="s2">using dta files with stata is that</p>
+<p begin="00:12:54.160" end="00:13:00.240" style="s2">not only that the variable names and</p>
+<p begin="00:12:57.680" end="00:13:01.920" style="s2">all of the values of data are stored</p>
+<p begin="00:13:00.240" end="00:13:05.120" style="s2">like an excel file</p>
+<p begin="00:13:01.920" end="00:13:09.200" style="s2">but it also has this other useful</p>
+<p begin="00:13:05.120" end="00:13:11.200" style="s2">information such as variable labels</p>
+<p begin="00:13:09.200" end="00:13:13.680" style="s2">the next thing we can do here is we can</p>
+<p begin="00:13:11.200" end="00:13:14.560" style="s2">generate new variables so that is done</p>
+<p begin="00:13:13.680" end="00:13:18.079" style="s2">with the command</p>
+<p begin="00:13:14.560" end="00:13:21.120" style="s2">generate or gen for shorter</p>
+<p begin="00:13:18.079" end="00:13:22.560" style="s2">so here we can generate log wage which</p>
+<p begin="00:13:21.120" end="00:13:26.880" style="s2">would be equal to</p>
+<p begin="00:13:22.560" end="00:13:29.519" style="s2">log of wage we can also generate</p>
+<p begin="00:13:26.880" end="00:13:29.920" style="s2">education squared which would be equal</p>
+<p begin="00:13:29.519" end="00:13:33.200" style="s2">to</p>
+<p begin="00:13:29.920" end="00:13:36.240" style="s2">education to the power of two or</p>
+<p begin="00:13:33.200" end="00:13:39.680" style="s2">we can generate a region called</p>
+<p begin="00:13:36.240" end="00:13:43.040" style="s2">southwest by summing up south</p>
+<p begin="00:13:39.680" end="00:13:45.680" style="s2">and the west uh the</p>
+<p begin="00:13:43.040" end="00:13:46.880" style="s2">observations that are in the south and</p>
+<p begin="00:13:45.680" end="00:13:50.720" style="s2">in the west</p>
+<p begin="00:13:46.880" end="00:13:53.279" style="s2">so this is a way to just generate new</p>
+<p begin="00:13:50.720" end="00:13:54.160" style="s2">variables so the last thing we are going</p>
+<p begin="00:13:53.279" end="00:13:57.199" style="s2">to do here</p>
+<p begin="00:13:54.160" end="00:13:58.000" style="s2">is export regression output because</p>
+<p begin="00:13:57.199" end="00:14:00.720" style="s2">sometimes</p>
+<p begin="00:13:58.000" end="00:14:02.959" style="s2">it&#39;s useful to do that if we need to</p>
+<p begin="00:14:00.720" end="00:14:06.240" style="s2">create tables</p>
+<p begin="00:14:02.959" end="00:14:09.279" style="s2">so um these um</p>
+<p begin="00:14:06.240" end="00:14:11.279" style="s2">lines here uh i have put a star in front</p>
+<p begin="00:14:09.279" end="00:14:13.120" style="s2">of them so anything that has a star in</p>
+<p begin="00:14:11.279" end="00:14:16.320" style="s2">front of them is commented out</p>
+<p begin="00:14:13.120" end="00:14:19.440" style="s2">so stata is not reading it</p>
+<p begin="00:14:16.320" end="00:14:21.839" style="s2">so here we would need to do it only one</p>
+<p begin="00:14:19.440" end="00:14:25.600" style="s2">time and this would mean to install</p>
+<p begin="00:14:21.839" end="00:14:28.880" style="s2">the outreg2 package and so</p>
+<p begin="00:14:25.600" end="00:14:31.839" style="s2">if we remove the star in front of these</p>
+<p begin="00:14:28.880" end="00:14:31.839" style="s2">commands here</p>
+<p begin="00:14:32.399" end="00:14:36.480" style="s2">we we would be installing this</p>
+<p begin="00:14:36.959" end="00:14:41.279" style="s2">outreg 2 package so actually we need to</p>
+<p begin="00:14:39.519" end="00:14:44.560" style="s2">remove the star here</p>
+<p begin="00:14:41.279" end="00:14:48.079" style="s2">and execute this line only once</p>
+<p begin="00:14:44.560" end="00:14:51.199" style="s2">so this ssc install</p>
+<p begin="00:14:48.079" end="00:14:52.639" style="s2">uh this would be installing the outreg 2</p>
+<p begin="00:14:51.199" end="00:14:55.680" style="s2">package</p>
+<p begin="00:14:52.639" end="00:14:58.880" style="s2">and this package actually later on</p>
+<p begin="00:14:55.680" end="00:15:01.440" style="s2">we could be calling it so that</p>
+<p begin="00:14:58.880" end="00:15:03.440" style="s2">we can generate a nice table so i&#39;m</p>
+<p begin="00:15:01.440" end="00:15:05.040" style="s2">going to put the star back on here</p>
+<p begin="00:15:03.440" end="00:15:07.920" style="s2">because i have it</p>
+<p begin="00:15:05.040" end="00:15:10.160" style="s2">installed on my computer so again you</p>
+<p begin="00:15:07.920" end="00:15:12.399" style="s2">need to do this only once</p>
+<p begin="00:15:10.160" end="00:15:13.360" style="s2">so how are we going to do that the first</p>
+<p begin="00:15:12.399" end="00:15:16.000" style="s2">thing is</p>
+<p begin="00:15:13.360" end="00:15:18.639" style="s2">let&#39;s estimate a simple regression model</p>
+<p begin="00:15:16.000" end="00:15:22.560" style="s2">so the way we&#39;re doing this is by using</p>
+<p begin="00:15:18.639" end="00:15:23.839" style="s2">reg or regress and here wage is the</p>
+<p begin="00:15:22.560" end="00:15:26.000" style="s2">dependent variable</p>
+<p begin="00:15:23.839" end="00:15:27.199" style="s2">and education is the independent</p>
+<p begin="00:15:26.000" end="00:15:31.519" style="s2">variable</p>
+<p begin="00:15:27.199" end="00:15:33.600" style="s2">so reg of wage and education</p>
+<p begin="00:15:31.519" end="00:15:35.600" style="s2">would estimate the regression model and</p>
+<p begin="00:15:33.600" end="00:15:38.959" style="s2">the regression model is given</p>
+<p begin="00:15:35.600" end="00:15:41.040" style="s2">here and so here we have wage</p>
+<p begin="00:15:38.959" end="00:15:43.040" style="s2">dependent variable education the</p>
+<p begin="00:15:41.040" end="00:15:45.120" style="s2">independent variable this is the</p>
+<p begin="00:15:43.040" end="00:15:47.600" style="s2">coefficient</p>
+<p begin="00:15:45.120" end="00:15:50.000" style="s2">that we have here so it means for one</p>
+<p begin="00:15:47.600" end="00:15:53.839" style="s2">additional year of education</p>
+<p begin="00:15:50.000" end="00:15:57.279" style="s2">the wage would increase by 53 cents</p>
+<p begin="00:15:53.839" end="00:16:00.000" style="s2">so there are a lot of also additional</p>
+<p begin="00:15:57.279" end="00:16:02.399" style="s2">uh statistics here from this table that</p>
+<p begin="00:16:00.000" end="00:16:04.560" style="s2">we will be discussing later on</p>
+<p begin="00:16:02.399" end="00:16:05.519" style="s2">but for now we&#39;re just interested in</p>
+<p begin="00:16:04.560" end="00:16:08.160" style="s2">exporting</p>
+<p begin="00:16:05.519" end="00:16:09.839" style="s2">results in tables so here&#39;s how we&#39;re</p>
+<p begin="00:16:08.160" end="00:16:12.800" style="s2">going to do this</p>
+<p begin="00:16:09.839" end="00:16:14.959" style="s2">we will call this outrigger2 package</p>
+<p begin="00:16:12.800" end="00:16:18.399" style="s2">then we will say using</p>
+<p begin="00:16:14.959" end="00:16:19.120" style="s2">and i&#39;m giving this file name i&#39;m going</p>
+<p begin="00:16:18.399" end="00:16:22.959" style="s2">to call it</p>
+<p begin="00:16:19.120" end="00:16:25.279" style="s2">a regressiontable.doc and here comma</p>
+<p begin="00:16:22.959" end="00:16:29.680" style="s2">replace if we have any file</p>
+<p begin="00:16:25.279" end="00:16:32.959" style="s2">we would actually be replacing this file</p>
+<p begin="00:16:29.680" end="00:16:35.199" style="s2">and so then let&#39;s say that now we want</p>
+<p begin="00:16:32.959" end="00:16:36.160" style="s2">to estimate the multiple regression</p>
+<p begin="00:16:35.199" end="00:16:39.360" style="s2">model</p>
+<p begin="00:16:36.160" end="00:16:41.839" style="s2">so how we are going to do this is uh</p>
+<p begin="00:16:39.360" end="00:16:42.800" style="s2">estimating a multiple regression model</p>
+<p begin="00:16:41.839" end="00:16:46.079" style="s2">so now</p>
+<p begin="00:16:42.800" end="00:16:48.000" style="s2">in addition to education we have an</p>
+<p begin="00:16:46.079" end="00:16:51.360" style="s2">experience so here we&#39;re running</p>
+<p begin="00:16:48.000" end="00:16:52.639" style="s2">a regression of wage which is the</p>
+<p begin="00:16:51.360" end="00:16:54.880" style="s2">dependent variable</p>
+<p begin="00:16:52.639" end="00:16:56.800" style="s2">education and experience which are</p>
+<p begin="00:16:54.880" end="00:16:58.959" style="s2">independent variables</p>
+<p begin="00:16:56.800" end="00:17:01.040" style="s2">and these would be the coefficients that</p>
+<p begin="00:16:58.959" end="00:17:04.480" style="s2">we get from this model</p>
+<p begin="00:17:01.040" end="00:17:07.039" style="s2">so let&#39;s export also these results in</p>
+<p begin="00:17:04.480" end="00:17:08.240" style="s2">table and so we are going to be using</p>
+<p begin="00:17:07.039" end="00:17:11.919" style="s2">outreg2</p>
+<p begin="00:17:08.240" end="00:17:15.360" style="s2">using the same file and if we put comma</p>
+<p begin="00:17:11.919" end="00:17:19.520" style="s2">append here this is going to append</p>
+<p begin="00:17:15.360" end="00:17:22.319" style="s2">to the um the previous file that we have</p>
+<p begin="00:17:19.520" end="00:17:25.039" style="s2">so again these are nice tables that get</p>
+<p begin="00:17:22.319" end="00:17:28.400" style="s2">generated that could be used later on</p>
+<p begin="00:17:25.039" end="00:17:31.600" style="s2">um later on</p>
+<p begin="00:17:28.400" end="00:17:34.640" style="s2">so the final thing that</p>
+<p begin="00:17:31.600" end="00:17:37.440" style="s2">we we could be doing here is</p>
+<p begin="00:17:34.640" end="00:17:39.280" style="s2">uh log close and if you remember we</p>
+<p begin="00:17:37.440" end="00:17:41.840" style="s2">opened the log file before</p>
+<p begin="00:17:39.280" end="00:17:43.280" style="s2">and now we&#39;re closing it so everything</p>
+<p begin="00:17:41.840" end="00:17:47.280" style="s2">that was actually done</p>
+<p begin="00:17:43.280" end="00:17:50.640" style="s2">in this output uh window here</p>
+<p begin="00:17:47.280" end="00:17:52.720" style="s2">was saved in this log file so if you go</p>
+<p begin="00:17:50.640" end="00:17:54.799" style="s2">on your computer where the data files</p>
+<p begin="00:17:52.720" end="00:17:57.360" style="s2">are</p>
+<p begin="00:17:54.799" end="00:17:58.320" style="s2">where where currently the programs are</p>
+<p begin="00:17:57.360" end="00:18:01.679" style="s2">you could actually</p>
+<p begin="00:17:58.320" end="00:18:05.679" style="s2">see this log file</p>
+<p begin="00:18:01.679" end="00:18:08.960" style="s2">in there and you can basically</p>
+<p begin="00:18:05.679" end="00:18:11.840" style="s2">save all of this regression output here</p>
+<p begin="00:18:08.960" end="00:18:12.640" style="s2">so this was a very quick introduction to</p>
+<p begin="00:18:11.840" end="00:18:14.640" style="s2">stata</p>
+<p begin="00:18:12.640" end="00:18:23.200" style="s2">thank you very much for watching and</p>
+<p begin="00:18:14.640" end="00:18:23.200" style="s2">please see the other videos</p>
+</div>
+</body>
+</tt>
